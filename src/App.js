@@ -1,11 +1,14 @@
+// Styles
 import "./App.css";
-import "semantic-ui-css/semantic.min.css";
-// import { Button } from "semantic-ui-react";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import Button from "react-bootstrap/Button";
 
 function App() {
   return (
     <div className="App">
-      <h1>Textify</h1>
+      <header>test</header>
+
+      <section className="post-list"></section>
     </div>
   );
 }
